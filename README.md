@@ -55,7 +55,7 @@
             
         验证指标：类似训练指标，修改文件目录即可
         
-    4）计算像素级小块指标，必须基于3）生成的conponent，这一步是对3）的改进，非必须步骤
+    4）计算像素级小块指标，必须基于3）生成的component，这一步是对3）的改进，非必须步骤
         1.修改global_defs.py中METASEG_MY_PIXEL_IO_PATH
         
         2.修改metaseg_eval.py,将compute_metrics_i调用的地方换成compute_pixel_metrics_i
