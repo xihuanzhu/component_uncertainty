@@ -11,8 +11,8 @@
     metrics.pyx计算块级（原始分割块）的指标
     expe6文件夹存储指标：
         pixel_train_measure:像素级小块训练集指标
-            components：利用分割mask生成用于区分分割块的数组
-            metrics:利用分割mask提取的指标，并用于回归实验
+        components：利用分割mask生成用于区分分割块的数组
+        metrics:利用分割mask提取的指标，并用于回归实验
         pixel_val_measure:像素级小块验证集指标
         train_measure:块级（原始分割块）训练集指标
         val_measure:块级（原始分割块）验证集指标
